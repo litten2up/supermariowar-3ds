@@ -35,7 +35,7 @@ INCLUDES	:=	src
 
 APP_TITLE		:= Super Mario War 
 APP_DESCRIPTION	:= Super Mario War
-APP_AUTHOR		:= Ported by NOP90
+APP_AUTHOR		:= Ported by NOP90, 2.0 port by bitten2up
 
 
 #---------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ ARCH	:=	-march=armv6k -mtune=mpcore -mfloat-abi=hard
 CFLAGS	:=	-g -Wall -O2 -mword-relocations -fomit-frame-pointer -ffast-math \
 			$(ARCH) 
 
-CFLAGS	+=	$(INCLUDE) -DARM11 -D_3DS  
+CFLAGS	+=	$(INCLUDE) -DARM11 -D_3DS
 
 CXXFLAGS	:= $(CFLAGS) -fno-rtti -fno-exceptions
 

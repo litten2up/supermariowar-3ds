@@ -24,7 +24,7 @@ extern SDL_Surface *screen;
 #ifdef _XBOX
 	#define GFX_FLAGS	SDL_SWSURFACE | SDL_HWACCEL
 #elif defined(_3DS)
-	#define GFX_FLAGS	SDL_FULLSCREEN | SDL_CONSOLEBOTTOM
+	#define GFX_FLAGS	SDL_FULLSCREEN
 #else
 	#define GFX_FLAGS	SDL_SWSURFACE /*| SDL_HWACCEL*/
 #endif
