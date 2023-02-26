@@ -8,7 +8,7 @@
 // this file contains stuff that's needed by every part of smw
 //----------------------------------------------------------------
 
-#define TITLESTRING "Super Cat Wars"
+#define TITLESTRING "Super Mario War"
 #define VERSIONNUMBER "2.0"
 
 #include <stdlib.h>	//srand/rand (maybe replace with an own version)
